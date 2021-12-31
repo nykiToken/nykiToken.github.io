@@ -1,0 +1,29 @@
+// JavaScript Document
+
+$(document).ready(function() {
+	// navbar
+	$('.navbar-toggler .navbar-toggler-icon').click(function () {
+		$(this).toggleClass('open');
+	});
+	$('.navbar .nav-item .nav-link').click(function () {
+		$('.navbar-toggler .navbar-toggler-icon').removeClass('open');
+		$('.navbar .navbar-collapse').removeClass('show');
+	});
+	// navbar end
+	
+	// scroll it
+	$.scrollIt({
+		upKey: 38,             
+		downKey: 40,           
+		easing: 'linear',      
+		scrollTime: 600,       
+		activeClass: 'active', 
+		onPageChange: null,    
+		topOffset: -120
+	});
+	// scroll it end
+	
+	
+	// OFI Browser
+	objectFitImages();
+});

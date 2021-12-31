@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------- Google Fonts ----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+/* Fonts END */
+
+body{
+	background-color: #fff;
+	font-family: 'Rubik', sans-serif;
+}
+.inactiveLink {
+	pointer-events: none;
+	cursor: default;
+}
+a,
+input,
+button,
+textarea { outline: none !important; }
+
+a {
+	transition: all ease-in-out 300ms;
+	-webkit-transition: all ease-in-out 300ms;
+	-ms-transition: all ease-in-out 300ms;
+	-o-transition: all ease-in-out 300ms;
+	-moz-transition: all ease-in-out 300ms;
+}
+.pad-left {
+	padding-left:0;
+}
+
+.pad-right {
+	padding-right:0;
+}
+
+.pad-top {
+	padding-top:0;
+}
+
+.pad-bottom {
+	padding-bottom:0;
+}
+
+.padding {
+	padding:0;
+}
+
+h1 {
+	font-size: 55px;
+	line-height: 55px;
+	margin: 0;
+}
+h2 {
+	font-size: 50px;
+	line-height: 50px;
+	margin: 0;
+}
+h3 {
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+
+h5 {
+	font-size: 26px;
+	line-height: 26px;
+	margin: 0;
+}
+
+h6 {
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0;
+}
+
+p {
+	font-size: 25px;
+	line-height: 37px;
+	color: #E0E0E0;
+	font-weight: 400;
+	margin: 0;
+}
+
+/* Classes by User */
+
+
+.glass{
+	background: rgba( 255, 255, 255, 0.05 );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.07 );
+}
+
+.banner {
+	background-image: url('/mystery_files/images/firework.webp');
+	background-size: auto;
+	background-repeat: repeat;
+	position: relative;
+}
+
+.banner-blur{
+	padding-top: 81px; 
+}
+.banner .icon-stic.icon-1 {
+	right: 35%;
+} 
+
+.banner .icon-stic {
+	background-image: url('/mystery_files/reflection.png');
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+}
+
+.banner .text-img .row {
+	margin: 0px -40px;
+}
+
+.banner .text-img [class*="col-"] {
+	padding: 0px 40px;
+}
+
+.banner .text-img .images {
+	position: relative;
+}
+
+@media screen and (min-width: 768px) {
+	.small-span{
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.banner-blur{
+		padding-top: 0px;
+	}
+	.images{
+		margin-bottom: 50px !important;
+	}
+	.mystery_features{
+		margin: 0px 5%;
+	}
+	#description-token{
+		margin: 0% 10%;
+	}
+	.img-text .image .img-fluid{
+		width: 60px !important;
+		height: 60px !important;
+		max-width: fit-content;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.img-text .text h2{
+		font-size: 28px !important;
+	}
+	.img-text .image .img-fluid{
+		width: 70px !important;
+		height: 70px !important;
+		max-width: fit-content;
+	}
+}
+
+.banner .text .date {
+	background-color: #000000;
+	padding: 0px 0px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	font-weight: 400;
+	padding: 7px 12px;
+	margin-bottom: 24px;
+	border-radius: 32px;
+	-webkit-border-radius: 32px;
+	-moz-border-radius: 32px;
+	-ms-border-radius: 32px;
+	-o-border-radius: 32px;
+}
+
+.banner .text .date .sale {
+	font-size: 16px;
+	line-height: 24px;
+	color: #0D0D2B;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	padding: 4px 16px;
+	margin-right: 26px;
+	border-radius: 32px;
+	-webkit-border-radius: 32px;
+	-moz-border-radius: 32px;
+	-ms-border-radius: 32px;
+	-o-border-radius: 32px;
+}
+
+.banner .text h1, 
+.banner .text h2, 
+.banner .text h3, 
+.banner .text h4, 
+.banner .text h5, 
+.banner .text h6 {
+	font-size: 60px;
+	line-height: 71px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.banner .text {
+	position: relative;
+	z-index: 1;
+}
+
+.banner .text p {
+	margin-top: 25px;
+}
+
+.banner .text .all-btn {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+.banner .text .all-btn .buy {
+	margin-right: 10px;
+}
+
+.banner .text .all-btn .btn {
+	font-size: 22px;
+	line-height: 33px;
+	color: #1b0a00;
+	text-transform: capitalize;
+	font-weight: 700;
+	background-color: #FFFFFF;
+	padding: 14px 28px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.banner .text .all-btn .btn:hover {
+	color: #FFFFFF;
+	background-color:#F19F2B;
+}
+
+.banner .text .key span {
+	font-size: 17px;
+	line-height: 25px;
+	display: inline-block;
+	color: #FEFEFE;
+	font-weight: 700;
+	background-color: #2085E1;
+	padding: 10px 25px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.banner .mystery_features {
+	padding: 80px 0px 30px;
+    position: relative;
+	z-index: 0;
+}
+
+.mystery_features .round-text .image img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	font-family: "object-fit:cover";
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.mystery_features .round-text .img-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mystery_features .text h1, 
+.mystery_features .text h2, 
+.mystery_features .text h3, 
+.mystery_features .text h4, 
+.mystery_features .text h5, 
+.mystery_features .text h6 {
+	font-size: 40px;
+	line-height: 60px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.mystery_features .round-text .text {
+	margin-left: 24px;
+}
+
+.mystery_features .round-text .text span {
+	display: block;
+	font-size: 16px;
+	line-height: 28px;
+	color: #E0E0E0;
+	font-weight: 400;
+}
+
+
+.section-heading {
+	color: #F19F2B;
+	text-transform: uppercase;
+}
+
+.section-heading h1, 
+.section-heading h2, 
+.section-heading h3, 
+.section-heading h4, 
+.section-heading h5, 
+.section-heading h6 {
+	font-size: 50px;
+	line-height: 50px;
+	color: inherit;
+	font-weight: 700;
+	text-transform: inherit;
+}
+
+.section-heading span {
+	display: block;
+	font-size: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+
+/* End User Classes */
+
+/* Footer start */
+
+.footer {
+	background-color: #000000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 88px 0px 58px;
+}
+
+.all-link .logo span {
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+	font-weight: 600;
+	display: block;
+}
+
+.all-link .link ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.all-link .link ul.second {
+	margin-top: 60px;
+}
+
+.all-link .link span {
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-weight: 500;
+	margin-bottom: 25px;
+	display: block;
+}
+
+.all-link .link li a {
+	font-size: 16px;
+	line-height: 38px;
+	color: #F2F2F2;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.all-link .link li a:hover {
+	color: #F19F2B;
+}
+
+
+/* Footer End */
