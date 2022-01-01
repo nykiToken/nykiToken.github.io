@@ -1,29 +1,12 @@
-@media (min-width: 240px) and (max-width: 575px){
-    .navbar-brand {
-        width: 55px;
-    }
-    .navbar .navbar-nav {
-        display: block;
-    }
-    .navbar .nav-item {
-        margin: 0px 0px;
-        padding: 6px 0px;
-        border-bottom: 1px solid #ffffff;
-    }
-    .navbar .nav-item:last-child {
-        border: none;
-    }
-    .header .navbar {
-        padding: 5px 0px;
-    }
+/*///////////////////////////////////////////////////////////////////////// Responsive CSS Structure /////////////////////////////////////////////////////////////////////////*/
 
-    .header-top p, .header-top p a {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    /* .content {
-        margin-top: 60px;
-    } */
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/ 
+
+@media (min-width: 240px) and (max-width: 575px){
+   
     .banner {
         padding-top: 40px;
     }
@@ -84,147 +67,43 @@
         padding: 6px 12px;
         margin-bottom: 10px;
     }
-    .audited .round-text .text {
+    .mystery_features .round-text .text {
         margin-left: 15px;
         width: 200px;
         text-align: left;
     }
-    .audited .round-text {
+    .mystery_features .round-text {
         margin-bottom: 15px;
     }
-    .rewards .image {
-        width: 225px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .rewards .text {
-        text-align: center;
-    }
-    .tokenomics .rewerd-box p {
-        text-align: center;
-    }
-    .audited .round-text .img-text {
+    
+    .mystery_features .round-text .img-text {
         justify-content: center;
     }
-    .audited .round-text .image img {
+    .mystery_features .round-text .image img {
         width: 60px;
         height: 60px;
     }
-    .audited .text h1, .audited .text h2, .audited .text h3, .audited .text h4, .audited .text h5, .audited .text h6 {
+    .mystery_features .text h1, .mystery_features .text h2, .mystery_features .text h3, .mystery_features .text h4, .mystery_features .text h5, .mystery_features .text h6 {
         font-size: 21px;
         line-height: 31px;
     }
-    .audited .round-text .text span {
+    .mystery_features .round-text .text span {
         line-height: 20px;
     }
-    .banner .audited {
+    .banner .mystery_features {
         padding: 20px 0px 20px;
     }
-    .rewards {
-        padding: 50px 0px;
-        background-size: cover;
-    }
-    .rewards .section-heading {
-        margin-bottom: 20px;
-    }
-    .tokenomics p {
-        margin-bottom: 20px;
-    }
-    .rewerd-box {
-        padding: 15px 20px;
-        margin-bottom: 20px;
-        height: calc(100% - 20px);
-    }
-    .rewerd-box .head span {
-        font-size: 22px;
-        line-height: 32px; 
-    }
-    .rewerd-box .head {
-        margin-bottom: 10px;
-    }
-    .tokenomics .anti-whale {
-        margin-top: 30px;
-        padding: 20px 15px;
-    }
-    .anti-whale .image {
-        width: 175px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
+    
     .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {
         font-size: 30px;
         line-height: 30px;
     }
-    .tokenomics {
-        padding: 30px 0px 45px;
-        background-size: cover;
-    }
+    
     .section-heading span {
         font-size: 25px;
         line-height: 25px;
     }
-    .tokenomics .section-heading {
-        margin-bottom: 25px;
-    }
-    .tokenomics .text .row {
-        margin-left: calc(-0.5 * var(--bs-gutter-x));
-        margin-right: calc(-0.5 * var(--bs-gutter-x));
-    }
-    .tokenomics .text [class*="col-"] {
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-    }
-    .road-box ul li {
-        font-size: 20px;
-        line-height: 25px;
-        margin-bottom: 10px;
-    }
-    .road-map .road-box .section-heading {
-        margin-bottom: 15px;
-    }
-    .road-map {
-        padding-bottom: 30px;
-        background-size: cover;
-    }
-    .road-map .road-box {
-        padding: 20px 20px;
-    }
-    .footer {
-        padding: 45px 0px 30px;
-    }
-    .nft-form .row {
-        margin-right: calc(-0.5 * var(--bs-gutter-x));
-        margin-left: calc(-0.5 * var(--bs-gutter-x));
-    }
-    .nft-form [class*="col-"] {
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
-    }
-    .nft-form .text {
-        padding-right: 0;
-    }
-    .nft-form .text .head span {
-        margin-bottom: 8px;
-        font-size: 28px;
-        line-height: 38px;
-        text-align: center;
-    }
-    .nft-form form .btn-sub {
-        padding: 8px 15px;
-        font-size: 16px;
-        line-height: 25px;
-        margin-left: 0px;
-        width: 100%;
-    }
-    .nft-form form {
-        flex-wrap: wrap;
-    }
-    .nft-form form .form-group {
-        margin-bottom: 10px;
-    }
-    .nft-form .text p {
-        text-align: center;
-    }
+   
     .footer .nft-form {
         margin-bottom: 30px;
         padding: 25px 25px 25px;
@@ -241,40 +120,13 @@
     .all-link .link ul {
         margin-top: 20px;
     } 
-    .copy-right ul li {
-        margin: 0px 10px;
-    }
-    .copy-right ul {
-        margin-top: 10px;
-    }
-    .footer .copy-right {
-        text-align: center;
-    }
+
     .footer .all-link {
         text-align: center;
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
-    .navbar .navbar-brand {
-        width: 75px;
-    }
-    .navbar .navbar-nav {
-        display: block;
-    }
-    .navbar .nav-item {
-        margin: 0px 0px;
-        padding: 6px 0px;
-        border-bottom: 1px solid #ffffff;
-    }
-    .navbar .nav-item:last-child {
-        border: none;
-    }
-    .header .navbar {
-        padding: 0px;
-    }
-    /* .content {
-        margin-top: 70px;
-    } */
+    
     .banner {
         padding-top: 40px;
     }
@@ -330,229 +182,51 @@
         line-height: 26px;
         padding: 8px 15px;
     }
-    .audited .round-text .text {
+    .mystery_features .round-text .text {
         margin-left: 15px;
         text-align: left;
         width: 215px;
     }
-    .audited .round-text {
+    .mystery_features .round-text {
         margin-bottom: 15px;
     }
-    .rewards .image {
-        margin: 0 auto;
-        width: 265px;
-        margin-bottom: 25px;
-    }
-    .rewards .text{
-        text-align: center;
-    }
-    .tokenomics .rewerd-box p {
-        text-align: center;
-    }
-    .audited .round-text .image img {
+   
+    .mystery_features .round-text .image img {
         width: 60px;
         height: 60px;
     }
-    .audited .text h1, .audited .text h2, .audited .text h3, .audited .text h4, .audited .text h5, .audited .text h6 {
+    .mystery_features .text h1, .mystery_features .text h2, .mystery_features .text h3, .mystery_features .text h4, .mystery_features .text h5, .mystery_features .text h6 {
         font-size: 21px;
         line-height: 31px;
     }
-    .audited .round-text .text span {
+    .mystery_features .round-text .text span {
         line-height: 20px;
     }
-    .banner .audited {
+    .banner .mystery_features {
         padding: 20px 0px 20px;
     }
-    .rewards {
-        padding: 50px 0px;
-        background-size: cover;
-    }
-    .rewards .section-heading {
-        margin-bottom: 20px;
-    }
-    .tokenomics p {
-        margin-bottom: 20px;
-    }
-    .rewerd-box {
-        padding: 15px 20px;
-        margin-bottom: 20px;
-        height: calc(100% - 20px);
-    }
-    .rewerd-box .head span {
-        font-size: 22px;
-        line-height: 32px; 
-    }
-    .rewerd-box .head {
-        margin-bottom: 10px;
-    }
-    .tokenomics .anti-whale {
-        margin-top: 40px;
-        padding: 20px 15px;
-    }
-    .anti-whale .image {
-        width: 200px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
+    
     .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {
         font-size: 35px;
         line-height: 35px;
     }
-    .tokenomics {
-        padding: 30px 0px 45px;
-        background-size: cover;
-    }
+    
     .section-heading span {
         font-size: 30px;
         line-height: 30px;
     }
-    .tokenomics .section-heading {
-        margin-bottom: 25px;
-    }
-    .tokenomics .text .row {
-        margin-left: calc(-0.5 * var(--bs-gutter-x));
-        margin-right: calc(-0.5 * var(--bs-gutter-x));
-    }
-    .tokenomics .text [class*="col-"] {
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-    }
-    .road-box ul li {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .road-map .road-box .section-heading {
-        margin-bottom: 15px;
-    }
-    .road-map {
-        padding-bottom: 40px;
-        background-size: cover;
-    }
-    .road-map .road-box {
-        padding: 20px 20px;
-    }
-    .footer {
-        padding: 45px 0px 30px;
-    }
-    .nft-form .row {
-        margin-right: calc(-0.5 * var(--bs-gutter-x));
-        margin-left: calc(-0.5 * var(--bs-gutter-x));
-    }
-    .nft-form [class*="col-"] {
-        padding-right: calc(var(--bs-gutter-x) * 0.5);
-        padding-left: calc(var(--bs-gutter-x) * 0.5);
-    }
-    .nft-form .text {
-        padding-right: 0;
-    }
-    .nft-form .text .head span {
-        margin-bottom: 8px;
-        text-align: center;
-    }
-    .nft-form .text p {
-        text-align: center;
-    }
-    .nft-form form .btn-sub {
-        padding: 8px 15px;
-        font-size: 16px;
-        line-height: 25px;
-        margin-left: 10px;
-    }
-    .footer .nft-form {
-        margin-bottom: 45px;
-        padding: 25px 25px 25px;
-    }
+    
     .all-link .link span {
         margin-bottom: 10px;
     }
     .all-link .link ul.second {
         margin-top: 20px;
     } 
-    .copy-right ul li {
-        margin: 0px 10px;
-    }
-}
-@media (max-width: 767px) {
-    .navbar .navbar-toggler {
-        border: none;
-        padding: 0;
-        width: 25px;
-        height: 25px;
-        position: relative;
-    }
-    .navbar .navbar-toggler:focus {
-        box-shadow: none;
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: unset;
-    }
-    .navbar-toggler-icon {
-        height: auto;
-        width: 100%;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-    }
-    .navbar-toggler .toggle-bar {
-        display: block;
-        height: 3px;
-        width: 100%;
-        margin: 0 0 5px;
-        position: relative;
-        transition: ease-in-out 0.2s;
-        -webkit-transition: ease-in-out 0.2s;
-        -ms-transition: ease-in-out 0.2s;
-        background-color: #ffffff;
-        -moz-transition: ease-in-out 0.2s;
-        -o-transition: ease-in-out 0.2s;
-    }
-    .navbar-toggler .navbar-toggler-icon.open .toggle-bar:first-child {
-        transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        top: 10px;
-    }
-    .navbar-toggler .navbar-toggler-icon.open .toggle-bar:nth-child(2) {
-        opacity: 0;
-    }
-    .navbar-toggler .navbar-toggler-icon.open .toggle-bar:last-child {
-        transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        top: -6px;
-    }
+    
 }
 
-@media (min-width: 768px) {
-}
 @media (min-width: 768px) and (max-width: 991px){
-    .navbar .nav-item {
-        margin: 0px 7px;
-    }
 
-    .navbar-brand {
-        max-width: 70px;
-    }
-
-    .header .navbar {
-        padding: 0px 0px 10px;
-    }
-    .navbar .nav-item .nav-link {
-        font-size: 13px;
-        line-height: 26px;
-    }
-    /* .content {
-        margin-top: 96px;
-    } */
     .banner .text .date .sale {
         display: block;
         margin: 6px auto;
@@ -592,124 +266,45 @@
         line-height: 26px;
         padding: 8px 15px;
     }
-    .audited .round-text .text {
+    .mystery_features .round-text .text {
         margin-left: 15px;
     }
-    .audited .round-text .image img {
+    .mystery_features .round-text .image img {
         width: 60px;
         height: 60px;
     }
-    .audited .text h1, .audited .text h2, .audited .text h3, .audited .text h4, .audited .text h5, .audited .text h6 {
+    .mystery_features .text h1, .mystery_features .text h2, .mystery_features .text h3, .mystery_features .text h4, .mystery_features .text h5, .mystery_features .text h6 {
         font-size: 21px;
         line-height: 31px;
     }
-    .audited .round-text .text span {
+    .mystery_features .round-text .text span {
         line-height: 20px;
     }
-    .banner .audited {
+    .banner .mystery_features {
         padding: 50px 0px 20px;
     }
-    .rewards {
-        padding: 70px 0px;
-    }
-    .rewards .section-heading {
-        margin-bottom: 25px;
-    }
-    .tokenomics p {
-        margin-bottom: 25px;
-    }
-    .rewerd-box {
-        padding: 15px 15px 0px;
-    }
-    .rewerd-box .head span {
-        font-size: 22px;
-        line-height: 32px; 
-    }
-    .rewerd-box .head {
-        margin-bottom: 10px;
-    }
-    .tokenomics .anti-whale {
-        margin-top: 45px;
-    }
+
     .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {
         font-size: 40px;
         line-height: 40px;
     }
-    .tokenomics {
-        padding: 35px 0px 55px;
-        background-size: cover;
-    }
+
     .section-heading span {
         font-size: 30px;
         line-height: 30px;
     }
-    .tokenomics .section-heading {
-        margin-bottom: 30px;
-    }
-    .tokenomics .text .row {
-        margin: calc(-0.5 * var(--bs-gutter-x));
-    }
-    .tokenomics .text [class*="col-"] {
-        padding: calc(var(--bs-gutter-x) * 0.5);
-    }
-    .road-box ul li {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .road-map .road-box .section-heading {
-        margin-bottom: 20px;
-    }
-    .road-map {
-        padding-bottom: 50px;
-    }
-    .footer {
-        padding: 55px 0px 35px;
-    }
-    .nft-form .row {
-        margin: calc(-0.5 * var(--bs-gutter-x));
-    }
-    .nft-form [class*="col-"] {
-        padding: calc(var(--bs-gutter-x) * 0.5);
-    }
-    .nft-form .text {
-        padding-right: 0;
-    }
-    .nft-form .text .head span {
-        margin-bottom: 8px;
-    }
-    .nft-form form .btn-sub {
-        padding: 8px 15px;
-        font-size: 16px;
-        line-height: 25px;
-        margin-left: 10px;
-    }
-    .footer .nft-form {
-        margin-bottom: 55px;
-        padding: 35px 35px 15px;
-    }
+
     .all-link .link span {
         margin-bottom: 10px;
     }
     .all-link .link ul.second {
         margin-top: 30px;
     } 
-    .copy-right ul li {
-        margin: 0px 15px;
-    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
-    .header .navbar {
-        padding: 25px 0px 15px;
-    }
 
-    .navbar .nav-item {
-        margin: 0px 12px;
-    }
-
-    /* .content {
-        margin-top: 135px;
-    } */
     .banner .text .date .sale {
         margin-right: 14px;
     }
@@ -738,75 +333,33 @@
         line-height: 30px;
         padding: 10px 18px;
     }
-    .audited .round-text .text {
+    .mystery_features .round-text .text {
         margin-left: 15px;
     }
-    .audited .round-text .image img {
+    .mystery_features .round-text .image img {
         width: 60px;
         height: 60px;
     }
-    .audited .text h1, .audited .text h2, .audited .text h3, .audited .text h4, .audited .text h5, .audited .text h6 {
+    .mystery_features .text h1, .mystery_features .text h2, .mystery_features .text h3, .mystery_features .text h4, .mystery_features .text h5, .mystery_features .text h6 {
         font-size: 32px;
         line-height: 42px;
     }
-    .banner .audited {
+    .banner .mystery_features {
         padding: 70px 0px 25px;
     }
-    .rewards {
-        padding: 100px 0px;
-    }
-    .rewards .section-heading {
-        margin-bottom: 25px;
-    }
-    .tokenomics p {
-        margin-bottom: 35px;
-    }
-    .rewerd-box {
-        padding: 25px 30px 0px;
-    }
-    .rewerd-box .head span {
-        font-size: 25px;
-        line-height: 40px; 
-    }
-    .rewerd-box .head {
-        margin-bottom: 20px;
-    }
-    .tokenomics .anti-whale {
-        margin-top: 70px;
-    }
+
     .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {
         font-size: 45px;
         line-height: 45px;
-    }
-    .tokenomics {
-        padding: 55px 0px 75px;
     }
     .section-heading span {
         font-size: 35px;
         line-height: 35px;
     }
-    .road-box ul li {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .road-map .road-box .section-heading {
-        margin-bottom: 20px;
-    }
-    .road-map {
-        padding-bottom: 60px;
-    }
     .footer {
         padding: 75px 0px 45px;
     }
-    .nft-form .text {
-        padding-right: 10%;
-    }
-    .nft-form form .btn-sub {
-        padding: 10px 25px;
-    }
-    .footer .nft-form {
-        margin-bottom: 75px;
-    }
+
     .all-link .link span {
         margin-bottom: 20px;
     }

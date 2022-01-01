@@ -1,7 +1,11 @@
 @charset "utf-8";
+/* CSS Document */
 
+/*---------- Google Fonts ----------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+/* Fonts END */
 
 body{
 	background-color: #fff;
@@ -268,6 +272,9 @@ p {
 	z-index: 0;
 }
 
+.icon-right{
+	margin-right: 10px;
+}
 .mystery_features .round-text .image img {
 	width: 80px;
 	height: 80px;
@@ -388,3 +395,6 @@ p {
 .all-link .link li a:hover {
 	color: #F19F2B;
 }
+
+
+/* Footer End */
